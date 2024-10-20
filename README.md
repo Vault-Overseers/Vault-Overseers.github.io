@@ -2,7 +2,7 @@
 
 This is the `mdbook`-based developer documentation for Site 14.
 
-The site is currently hosted at [https://Foundation-Site-14.github.io](https://Foundation-Site-14.github.io).
+The site is currently hosted at [https://foundation-site-14.github.io/Site-14-docs](https://foundation-site-14.github.io/Site-14-docs))
 
 Benefits of the current docs site infrastructure include:
 - First-class git support, open source and actually editable by everyone
