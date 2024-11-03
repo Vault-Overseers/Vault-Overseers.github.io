@@ -1,4 +1,4 @@
-<img src="https://en.wikipedia.org/wiki/Vault-Tec#/media/File:Vault-Tec_Corporation_logo.svg" width=128 style="margin-left:auto;margin-right:auto;display:block"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Vault-Tec_Logo.svg" width=128 style="margin-left:auto;margin-right:auto;display:block"/>
 
 ```admonish warning "Players beware"
 This is the developer's wiki. If you are a player, you are looking for [the player wiki](https://wiki.singularity14.co.uk).
