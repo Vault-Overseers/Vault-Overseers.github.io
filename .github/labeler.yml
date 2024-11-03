@@ -14,8 +14,8 @@
 # Welcome to the mega labeler.
 "Design":
 # General design
-- 'src/en/site-14/core-design/**'
+- 'src/en/n14/core-design/**'
 
 # Department design
-- 'src/en/site-14/departments/atmos/*'
+- 'src/en/n14/departments/atmos/*'
 

@@ -1,0 +1,13 @@
+# Github
+
+## GitHub Website / Basics
+GitHub is the platform we use for hosting our code in a repository (repo for short) and is used by nearly all servers / codebases in SS13 and 14. It allows new contributors to clone or fork our repository to make their own changes and modifications, then they can submit a pull request (or PR for short) to our repo to have their changes merged into the game. You'll want to create a GitHub account then head to [the nuclear-14 repository here](https://github.com/Vault-Overseers/nuclear-14) and hit the "Fork" button near the top right, below the search bar. This will ask you a few things but you can ignore that and just hit the Create Fork button in green. This will add a fork of the repo to "Your repositories" which you can find by clicking on your avatar or username in the top right.
+
+With GitHub we work on branches, this lets you work on multiple things at once without affecting each other and with better control. Your main branch is usually called "Master" and we keep this clean, that means we don't do any actual work on Master branch. Instead we create branches from it and work on those instead. On the website you can do this by clicking on Master under the repository name and a bar for "Find or Create branch" will appear. Ideally we don't work on the GitHub website as its clunky and not feature rich, so skip to the GitHub clients bit below for more information on branches.
+
+The final thing to know about the GitHub website is once you've done some work on a branch and are ready to submit a pull request (PR) to have it merged with the game. For this you head to the [upstream repository here](https://github.com/Vault-Overseers/nuclear-14) (upstream meaning the main nuclear-14 repo). If you've recently pushed changes to from your local branch to your origin branch on the GitHub website then you'll see an orange banner across the top asking if you'd like to open a pull request. Hit this and fill out the template and submit it to be reviewed by the Nuclear 14 Maintainers. If you're reading this guide in order then head down to the GitHub Clients section to learn more about commits, origin, working trees and more.
+
+## GitHub Clients
+GitHub can be accessed through command line interface (CLI) by downloading Gitbash or through some questionable clients like GitHub Desktop which is more problematic than not usually. We recommend [SmartGit](https://www.syntevo.com/smartgit/) as a user friendly yet powerful and free option for open source development like ours. It might look like a lot at first glance but we'll run through installation and what everything is, and it'll quickly become just like any other software you use.
+
+## SmartGit

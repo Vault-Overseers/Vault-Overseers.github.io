@@ -1,10 +1,10 @@
 [book]
-authors = ["Site 14 Contributors"]
+authors = ["Nuclear 14 Contributors"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Site-14 Development Wiki"
-description = "Tutorial & reference for all Site 14 projects."
+title = "Nuclear 14 Development Wiki"
+description = "Tutorial & reference for all Nuclear 14 projects."
 
 [preprocessor.mermaid]
 
@@ -23,8 +23,8 @@ additional-css = ['theme/compiled/ss14.css']
 default-theme = "navy"
 preferred-dark-theme = "navy"
 
-git-repository-url = "https://github.com/Foundation-Site-14/Site-14"
-edit-url-template = "https://github.com/Foundation-Site-14/Site-14-docs/blob/master/{path}"
+git-repository-url = "https://github.com/Vault-Overseers/nuclear-14"
+edit-url-template = "https://github.com/Vault-Overseers/Vault-Overseers.github.io/blob/master/{path}"
 
 mathjax-support = true
 smart-punctuation = true

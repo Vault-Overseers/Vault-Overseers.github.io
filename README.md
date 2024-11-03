@@ -1,8 +1,8 @@
-# Site 14 Development Wiki
+# Nuclear 14 Development Wiki
 
 This is the `mdbook`-based developer documentation for Site 14.
 
-The site is currently hosted at [https://foundation-site-14.github.io/Site-14-docs](https://foundation-site-14.github.io/Site-14-docs))
+The site is currently hosted at [https://vault-overseers.github.io/](https://vault-overseers.github.io/))
 
 Benefits of the current docs site infrastructure include:
 - First-class git support, open source and actually editable by everyone
@@ -31,4 +31,4 @@ The following `mdbook` features & plugins are available and in use:
 
 ## License
 
-The Site-14 Development Wiki is released under the Mozilla Public License v2.0.
+The Nuclear 14 Development Wiki is released under the Mozilla Public License v2.0.

@@ -1,8 +1,8 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/SCP_Foundation_%28emblem%29.svg" width=128 style="margin-left:auto;margin-right:auto;display:block"/>
 
-```admonish warning "Players beware"
-This is the developer's wiki. If you are a player, you are looking for [the player wiki](https://foundation-site-14.github.io/Site-14-docs/).
-```
+admonish warning "Players beware"
+This is the developer's wiki. If you are a player, you are looking for [the player wiki](https://wiki.singularity14.co.uk).
+
 
 ```admonish question "Technical Issues"
 If you are having difficulties with logging into the game or building it, please try the following resources:
