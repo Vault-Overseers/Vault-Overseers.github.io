@@ -39,6 +39,10 @@ There's various other things in this directory that are loose prototypes that do
 When in doubt about what variables you can edit or the functionality of a component or prototype, searching in the IDE for that component or prototype will give a list of possible bools (true / false options) and datafields (free form entry of options) so you know what functionality you can unlock, or looking at other examples in the codebase for usage.
 
 ## Our YAML Conventions
-When contributing new prototypes such as entities, to prevent conflicts its often required to put the forks prefix in the ID name for example instead of `Cloth`, we would have `N14Cloth` for Nuclear14 to ensure our cloth prototype doesn't interfere with any upstream changes and cause conflicts or issues.
+* When contributing new prototypes such as entities, to prevent conflicts its often required to put the forks prefix in the ID name for example instead of `Cloth`, we would have `N14Cloth` for Nuclear14 to ensure our cloth prototype doesn't interfere with any upstream changes and cause conflicts or issues.
 
-Localisation is also a key element of contributing. A lot of prototypes such as roles and reagents have their names and descriptions replaced with a localisation string which is then defined in `Resources/Locale` to ensure the game can easily be transalted for other regions.
+* To that effect, always put things in the `Prototypes/_Nuclear14` directory or relevant other directory like `Textures/_Nuclear14` and `Locale/en-US/_Nuclear14` That way we get less conflicts and can find things easier.
+
+* Localisation is also a key element of contributing. A lot of prototypes such as roles and reagents have their names and descriptions replaced with a localisation string which is then defined in `Resources/Locale` to ensure the game can easily be transalted for other regions.
+
+* If you change an existing ID, make sure to create an entry in the `Resources/N14Migrations.yml` file otherwise the maps will break when they try to load an ID that no longer exists.
