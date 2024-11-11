@@ -21,6 +21,7 @@ Nuclear 14 Game Design
 	- [YAML Basics](en/n14/yaml-contributing/yaml-basics.md)
 	- [Adding a Weapon](en/n14/yaml-contributing/adding-a-weapon.md)
     - [Adding a Loadout](en/n14/yaml-contributing/adding-a-loadout.md)
+    - [Adding Music and Sounds](en/n14/yaml-contributing/adding-music-and-sounds.md)
 	
 - [Mapping](en/n14/mapping.md)
 	- [PR Guidelines](en/n14/mapping/guidelines.md)
