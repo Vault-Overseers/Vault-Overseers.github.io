@@ -1,5 +1,5 @@
 # Format
-All audio in Space Station 14 / Nuclear 14 is stored in the `Resources/Audio` and `_Nuclear14` subfolder respectively. All audio is in .ogg format and you can use many free online converters to change from your chosen audio format to .ogg.
+All audio in Space Station 14 / Nuclear 14 is stored in the `Resources/Audio` and `_Nuclear14` subfolder respectively. All audio is in .ogg format and should be MONO not stereo and you can use many free online converters to change from your chosen audio format to .ogg.
 
 Once you've chosen an audio file to add, you'll also need to create an `attributions.yml` file which has all the copyright information in for that file or files. This looks like this:
 ```
