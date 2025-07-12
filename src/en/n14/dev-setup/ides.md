@@ -5,6 +5,8 @@ An IDE is an Integrated Development Environment and is used for coding. In SS14 
 
 A lot of people don't actually edit YAML in an IDE and instead use software like Notepad++ with the yaml language selected, but for beginners I'd suggest the plugin via an IDE above to hold your hand while you start out.
 
+More experienced coders or people dabbling in C# may consider JetBrains Rider as it's free for open source use and can be more powerful and intuitive in the right hands.
+
 ## VSC Setup
 1. Head to the Visual Studio Code Website here and run through the installation process. Keep all default options ticked. https://code.visualstudio.com/
 2. When you first launch it'll ask you to select a theme, do that. On the left there is a checklist of actions to do to complete your getting started. 
