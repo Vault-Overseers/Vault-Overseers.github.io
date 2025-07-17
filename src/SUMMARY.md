@@ -24,6 +24,10 @@ Nuclear 14 Game Design
     - [Adding Music and Sounds](en/n14/yaml-contributing/adding-music-and-sounds.md)
     - [Adding Guidebooks](en/n14/yaml-contributing/adding-guidebooks.md)
 	
+- [Art Contributing](en/n14/art-contributing.md)
+
+- [Porting from SS13](en/n14/porting-ss13.md)
+	
 - [Mapping](en/n14/mapping.md)
 	- [PR Guidelines](en/n14/mapping/guidelines.md)
 	
@@ -31,5 +35,3 @@ Nuclear 14 Game Design
 	
 	- [Guides]()
 		- [General Guide](en/n14/mapping/guides/general-guide.md)
-
-	- [Proposals]()
