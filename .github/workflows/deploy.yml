@@ -40,7 +40,7 @@ jobs:
         run: mdbook build --dest-dir=.
       - name: flatten
         working-directory: wiki
-        run: mv html/* .
+        run: mv -f html/* .
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
