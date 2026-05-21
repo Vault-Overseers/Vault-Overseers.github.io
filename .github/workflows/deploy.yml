@@ -37,7 +37,7 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Build with mdBook
         working-directory: wiki
-        run: mdbook build -d .
+        run: mdbook build --dest-dir=.
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
