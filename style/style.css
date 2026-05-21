@@ -1,0 +1,70 @@
+/*
+ * color scheme
+#BDBFAC -- fg
+#232116 -- bg
+#787864
+#595F4D
+#919D8C
+#8E9494
+#585454
+*/
+
+@font-face {
+    font-family: Overseer;
+    src: url('Overseer.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 1.25;
+    margin: 0 auto;
+    max-width: 50em;
+    padding: 1em 1em;
+    background-color: #232116;
+    color: #BDBFAC;
+    font-size: 120%;
+}
+
+#nav {
+    font-family: Overseer;
+    display: flex;
+    list-style-type: none;
+    padding: 0.4em;
+    margin: 0;
+    background: #595F4D;
+}
+
+#nav li {
+    margin-right: 1em;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+}
+
+h1 img {
+    margin-right: 0.3em;
+    height: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Overseer;
+}
+
+a {
+    color: #919D8C;
+}
+
+a.external {
+}
+
+a:hover {
+    color: #BDBFAC;
+}
+
+url {
+    font-family: monospace;
+}

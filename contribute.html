@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<title>Nuclear 14 Contributor's Guide</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style/style.css">
+
+<h1>Nuclear 14 Contributor's Guide</h1>
+<ul id='nav'>
+<li><a href="#mapping">Mapping</a>
+<li><a href="#spriting">Spriting</a>
+<li><a href="#files">Contributing Files</a>
+</ul>
+
+<p>
+<b>Nuclear 14</b> is based on Space Station 14 (the <i>upstream</i>), which has <a href='https://docs.spacestation14.io/'>developer documentation</a> that cover most things that you might want to do that aren't described here.
+</p>
+
+<a name='mapping'></a>
+<h2>Mapping</h2>
+<p>
+You can help map for <b>Nuclear 14</b> by following the <a href='https://docs.spacestation14.io/en/content/mapping'>upstream mapping guide</a>.
+This involves setting up a development environment, <a href='#clone'>cloning the Nuclear 14 repository</a>, and mapping on your local development server.
+</p>
+
+<p>
+Alternatively, you can map on our official mapping server:
+</p>
+
+<ol>
+<li>Ask for a <code>@mapper</code> role on our Discord. This grants you whitelist access to the mapping server.
+<li><a href='https://spacestation14.io/'>Install Space Station 14</a> and open the launcher.
+<li>Add the mapping server to your launcher.
+    <img src='images/add_favorite_mapping.png' alt='(1) Click "Add Favorite..." (2) Fill in "Nuclear 14 (Mapping)" as the name and "ss14://nuclear14.com:1401" as the address (3) Click "Add"'>
+<li>Connect to the mapping server from the launcher. If you cannot connect, either the mapping server is down, or you have not been approved for the whitelist.
+    In both cases, contact us on Discord.
+<li>Follow the <a href='https://docs.spacestation14.io/en/content/mapping'>upstream mapping guide</a> from the <b>Start Mapping</b> section.
+<li>When saving your map, save to a path unique to you. For example, if your SS14 username is <code>fluff</code>, you should save your map to <code>/fluff/my_map.yaml</code>.
+<li>Contact us on Discord when you are ready for feedback on your map. Your map does not have to be finished for us to give feedback; get feedback early!
+</ol>
+
+<a name='spriting'></a>
+<h2>Spriting</h2>
+<i>To be written</i>
+
+<a name='files'></a>
+<h2>Contributing Files</h2>
+You can contribute files (for example, when mapping and spriting) through the Github web UI without having to <a href='https://docs.spacestation14.io/en/getting-started/git'>install and use Git</a>:
+
+<ol>
+<li>Go to our <a href='https://github.com/Vault-Overseers/nuclear-14'>Github page</a> and fork our repository:<br>
+    <img src='images/webpr_1_fork.png' alt='Click "Fork"'>
+    <img src='images/webpr_2_create_fork.png' alt='Accept the defaults and click "Create Fork"'>
+<li>You should end up at the page for <u>your</u> fork of <b>Nuclear 14</b>. Navigate to the folder where you want to upload your files.
+    <ul>
+    <li>For maps, this is <i>Resources/Maps/</i>
+    <li>For sprites, this is <i>Resources/Textures/Nuclear14/</i>
+    <li>For item (<i>entity</i>) prototypes, this is <i>Resources/Prototypes/Nuclear14/</i>
+    </ul>
+<li>Use the "Add files" and "Upload files" drop down to upload your files
+    <img src='images/webpr_3_upload.png' alt='Click "Add file" then "Upload files"'>
+<li>On the file upload screen:
+    <img src='images/webpr_4_pr.png' alt='File upload screen'>
+    <ol>
+    <li>Drag the files you want to upload
+    <li>Give your change a descriptive title and description
+    <li>Select "Create a new branch" and name your branch (no spaces)
+    <li>Click "Propose changes"
+    </ol>
+</ol>
+
+<a name='clone'></a>
+<h2>Cloning Nuclear 14</h2>
+<p>
+From the command line:<br>
+<code>git clone https://github.com/Vault-Overseers/nuclear-14.git</code>
+</p>
